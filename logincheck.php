@@ -30,7 +30,7 @@ if( isset($_POST['uname']) and isset($_POST['psw']) )
                 session_start();
                 $_SESSION['user_id']=$user;
                 //redirect to task4
-                header('location: task4.php');
+                header('location: hello.php');
                  if(isset($_GET['q']))
                     {
                         $a="task".$_GET['q'];
