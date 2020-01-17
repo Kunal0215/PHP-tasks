@@ -1,4 +1,5 @@
 <?php
+//navigation bar for web deployed task
 if(!isset($_SESSION)) 
     { 
         session_start(); 
