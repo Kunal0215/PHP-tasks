@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<!-- sign up page-->
 <head>
   <link rel="stylesheet" type="text/css" href="logincss.css">
   <script src="jquery.js"> </script>
