@@ -1,5 +1,5 @@
 <?php
-
+// main task all input fields
 if(!isset($_SESSION)) 
 { 
     session_start(); 
