@@ -33,8 +33,8 @@
             	//start the session if row is present , session initiated and assigned the username as session variable
     		session_start();
     		$_SESSION['user_id']=$user;
-                //redirect to task4
-    		header('location: task4.php');
+                //redirect to main task form
+    		header('location: hello.php');
     		if(isset($_GET['q']))
     		{
     			$a="task".$_GET['q'];
